@@ -1,0 +1,3 @@
+./UtilizationEvaluation -m -u Cmdenv -n .:../inetmanet-3.x/examples:../inetmanet-3.x/showcases:../inetmanet-3.x/src:../inetmanet-3.x/tutorials --image-path=../inetmanet-3.x/images -l ../inetmanet-3.x/src/INET omnetpp.ini -c AODVQoSNetwork -r 0
+
+UtilizationEvaluation -r 6 -m -u Cmdenv -n .:../inetmanet-3.x/examples:../inetmanet-3.x/showcases:../inetmanet-3.x/src:../inetmanet-3.x/tutorials --image-path=../inetmanet-3.x/images -l ../inetmanet-3.x/src/INET -s --record-eventlog=false --scalar-recording=true --vector-recording=false --cmdenv-stop-batch-on-error=false omnetpp.ini
